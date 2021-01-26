@@ -1,0 +1,14 @@
+{
+  "config": {
+    "sources": [
+      "database/cats"
+    ]
+  },
+  "User": {
+    "dataSource": "database"
+  },
+  "Role": {
+    "dataSource": "database",
+    "public": false
+  }
+}
